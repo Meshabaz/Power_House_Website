@@ -69,11 +69,11 @@ body {
     font-family: 'Acme', sans-serif;
     margin: 0px 9px;
     color: white;
-    background-color: black;
+    background-color: transparent;
     cursor: pointer;
     padding: 10px 10px;
     font-size: large;
-    border: 2px solid gray;
+    border: 1px solid gray;
     border-radius: 10px;
 }
 
@@ -83,11 +83,14 @@ body {
 }
 
 .container {
-    border: 2px solid white;
-    margin: 71px 271px;
-    padding: 60px 44px;
-    width: 50%;
+    /* border: 2px solid white; */
+    margin: 184px 495px;
+    padding: 13px 44px;
+    width: 37%;
     border-radius: 26px;
+    background-color: rgba(0, 0, 0, 0.5);
+    transform: translate(-25%, -25%);
+    box-shadow: 2px 2px 20px #919191;
 }
 
 .form-group input {
@@ -97,17 +100,25 @@ body {
     display: block;
     width: 34%;
     padding: 11px;
-    border: 2px solid black;
+    border: 1px solid lightgray;
     margin: 8px auto;
     border-radius: 10px;
+    background-color: transparent;
+    color: gray;
 }
 
+input::placeholder{
+    color: lightgray;
+}
 .container h1 {
     text-align: center;
+    color: lightgray;
 }
 
 .container button {
     display: block;
     width: 200px;
     margin: auto;
+    background-color: transparent;
+    color: lightgray;
 }

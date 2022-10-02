@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Css/calculator.css">
+</head>
+
+<body>
+    <header class="header">
+        <!-- logo -->
+        <div class="left">
+            <img src="/img/Logo.png" alt="">
+            <div>Power House Gym</div>
+        </div>
+        <!-- navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="index.html" class="active">Home</a> </li>
+                <li><a href="#">About Us</a> </li>
+                <li><a href="calculator.html"> Fitness Caculator</a></li>
+                <li><a href="#"> Contact Us</a></li>
+            </ul>
+
+        </div>
+        <!-- button -->
+        <div class="right">
+            <button class="btn">
+                Call Us
+            </button><button class="btn">
+                Email Us
+            </button>
+        </div>
+    </header>
+    <div id="aboutbmi">Body Mass Index (BMI) is a person's weight in kilograms (or pounds) divided by the square of height in meters (or feet). A high BMI can indicate high body fatness. BMI screens for weight categories that may lead to health problems, but it does not diagnose the body fatness or health of an individual.</div>
+    <div id="bmi">
+        <h1>BMI Calculator</h1>
+        <form action="">
+            <div id="form-group">
+                <input type="text" id="height" placeholder="Enter Your Height" required>
+            </div>
+            <div id="form-group">
+                <input type="text" id="weight" placeholder="Enter Your Weight" required>
+            </div>
+        </form>
+        <button class="btn" onclick="bmi()">Calculate</button>
+        <p>*Enter your height in(cm) and weight in(kg)*</p>
+    </div>
+    <div>
+        <p id="result"></p>
+
+    </div>
+</body>
+</html>
+<script src="Js/calculator.js"></script>

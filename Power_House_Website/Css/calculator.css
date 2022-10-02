@@ -1,0 +1,147 @@
+body {
+    font-family: 'Acme', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+
+.left {
+    position: absolute;
+    left: 34px;
+    top: 20px;
+    display: inline-block;
+    /* border: 2px solid red; */
+}
+
+.left img {
+    width: 115px;
+    display: block;
+    margin: auto;
+    filter: invert(100%);
+}
+
+.left div {
+    text-align: center;
+    color: white;
+}
+
+.mid {
+    display: block;
+    width: 40%;
+    margin: 14px auto;
+    /* border: 2px solid teal; */
+
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    /* border: 2px solid crimson; */
+    display: flex;
+    gap: 20px;
+}
+.right .btn{
+    width: 100px;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    padding: 34px 10px;
+}
+
+.navbar li a:hover,
+.navbar li a:active {
+    text-decoration: underline;
+    color: coral;
+}
+#aboutbmi{
+    margin: 120px 438px;
+    padding: 18px 64px;
+    width: 58%;
+    justify-content: center;
+    border-radius: 26px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: lightgray;
+    transform: translate(-25%, -25%);
+    box-shadow: 2px 2px 20px #919191;
+}
+
+#bmi {
+    margin: 188px 531px;
+    padding: 18px 64px;
+    width: 25%;
+    justify-content: center;
+    border-radius: 26px;
+    background-color: rgba(0, 0, 0, 0.5);
+    transform: translate(-25%, -25%);
+    box-shadow: 2px 2px 20px #919191;
+}
+#bmi p{
+text-align: center;
+color: lightgray;
+}
+#bmi h1 {
+    text-align: center;
+    color: lightgray;
+}
+
+#form-group input {
+    font-family: 'Acme', sans-serif;
+    font-size: 23px;
+    text-align: center;
+    display: block;
+    width: 57%;
+    padding: 11px;
+    border: 1px solid lightgray;
+    margin: 30px auto;
+    border-radius: 10px;
+    background-color: transparent;
+    color: gray;
+}
+input::placeholder{
+    color: lightgray;
+}
+
+.btn {
+    font-family: 'Acme', sans-serif;
+    display: block;
+    width: 200px;
+    margin: auto;
+    color: lightgray;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 10px 10px;
+    font-size: large;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.btn:hover {
+    background-color: coral;
+    color: rgb(54, 54, 54);
+}
+
+#result {
+    margin: -235px 438px;
+    padding: 18px 64px;
+    width: 58%;
+    justify-content: center;
+    border-radius: 26px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: lightgray;
+    transform: translate(-25%, -25%);
+    box-shadow: 2px 2px 20px #919191;
+}

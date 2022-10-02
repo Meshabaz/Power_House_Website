@@ -17,5 +17,9 @@
     }
     setInterval("carousel()",3000);
 
+    function getdata(){
+        alert("Congratulation! You are now are our member 😍 !!")
+    }
+
 
 
